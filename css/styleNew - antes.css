@@ -1,0 +1,357 @@
+/*--------------------------------------------------------------
+# ROOT
+--------------------------------------------------------------*/
+
+:root {
+    --color-a: #1977cc;
+    --color-a-hover: red;
+    /*#3291e6 */
+    --color-white: #fff;
+    --color-topbar-bg: #f5f5f8;
+    --color-plomo: #43434d;
+    --color-topbar-social: #437099;
+    --color-cafe-claro: #4c4c65;
+    --color-navbar-bg: #f5f5f8;
+    /* #f5f5f8;     #5ae4f533;  */
+    --color-navbar-a: #2e2e2f;
+    --color-navbar-a-hover: #1977cc;
+    --color-about-iconBox-i: #0065b3;
+    /* f03c02; 0065b3*/
+    --color-about-iconBox-p: #90847f;
+    /*#90847f; */
+    --color-services2: #ed1b23cc;
+    /*  #0079fc azul    #0065b3 ;*/
+    --color-footer-icono: #1977cc;
+    --color-footer-social-links: #ed1b23cc;
+    --color-navbarDropmenu-fondo: #56dc35;
+    /*  #0079fc; azul  */
+    /*  --color-nav-menu-dropdown: #011d58;
+    --color-cta: #414357;
+    --color-breadcrumbs: #04223e;
+    --color-cafe-claro: #4c4c65;
+    --color-hero-carousel: #0a4a84;
+    --color-section-bg: #f1f7fd;
+    --color-portafolio: #7394dd;
+    --color-portfolio-details-dot: #103add;
+    --color-clients: #f1eeed;
+    --color-footer: #b4aca8;
+    --color-skills-bar: #d2d5de;
+    --color-pricing: #f0f0f3;
+    --color-pricing-buy: #9c847b;
+    --color-testimonials: #999;
+    --color-testimonial-comillas: #abb3fa;
+    --color-footer-links: var(--color-a);
+    --color-footer-bottom: #020d17;
+    --color-footer-icono: #1977cc;
+    --color-pricing2: #4997dd;
+    --color-pricing2-btn-hover: ##0a60ac;
+    --color-pricing-span: #bababa;
+    --color-contact-i: #eae8ff;*/
+    /* -------------------------------------------------------------------- */
+    /*
+	 --color-a: #1977cc;
+    --color-a-hover: #3291e6;
+    --color-white: #fff;
+    --color-topbar-bg: #f5f5f8;
+    --color-plomo: #43434d;
+    --color-topbar-social: #437099;
+    --color-nav-menu-dropdown: #011d58;
+    --color-cta: #414357;
+    --color-breadcrumbs: #04223e;
+    --color-cafe-claro: #4c4c65;
+    --color-hero-carousel: #0a4a84;
+    --color-section-bg: #f1f7fd;
+    --color-portafolio: #7394dd;
+    --color-portfolio-details-dot: #103add;
+    --color-clients: #f1eeed;
+    --color-footer: #b4aca8;
+    --color-skills-bar: #d2d5de;
+    --color-pricing: #f0f0f3;
+    --color-pricing-buy: #9c847b;
+    --color-testimonials: #999;
+    --color-testimonial-comillas: #abb3fa;
+    --color-footer-links: var(--color-a);     
+    --color-footer-bottom: #020d17;
+    --color-footer-icono: #1977cc;
+    --color-pricing2: #4997dd;
+    --color-pricing2-btn-hover: ##0a60ac;
+    --color-pricing-span: #bababa;
+    --color-contact-i: #eae8ff;
+	*/
+}
+
+#fh5co-course-categories,
+#fh5co-counter,
+#fh5co-course,
+#fh5co-register,
+#fh5co-pricing,
+#fh5co-testimonial,
+#fh5co-blog,
+#fh5co-about,
+#fh5co-staff,
+#fh5co-contact,
+#fh5co-footer {
+    padding: 4em 0;
+    clear: both;
+}
+
+
+/*--------------------------------------------------------------
+# 
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# new
+--------------------------------------------------------------*/
+
+.contacto {
+    display: flex;
+    color: #fff;
+}
+
+.contacto .titulo h4 {
+    color: #fff;
+    /*font-size: 9px;*/
+    width: 270px;
+    /*width: 230px; */
+    /*160px;*/
+    box-lines: initial;
+}
+
+
+/*--------------------------------------------------------------
+# 
+--------------------------------------------------------------*/
+
+#fh5co-footer {
+    padding: 2em 0;
+    /* padding: 7em 0; */
+    clear: both;
+}
+
+
+/*--------------------------------------------------------------
+# 
+--------------------------------------------------------------*/
+
+
+/*
+.footer-top {
+    background: url("../images/cta-bg.jpg") top center no-repeat;
+    background-size: cover;
+    padding: 50px 0 30px 0;
+}
+
+.container {
+    position: relative;
+}
+
+ .footer-bottom {
+    background-color: #14100f;
+    color: #b4aca8;
+    padding: 12px 0 10px 0;
+}*/
+
+.copyright {
+    /*margin: 0 0 5px 0;*/
+    text-align: left;
+    font-size: 14px;
+}
+
+.credits {
+    font-size: 13px;
+    cursor: pointer;
+    text-align: right;
+    /* padding: 4px 10px 4px 10px;*/
+    /* color: #b4aca8;*/
+}
+
+.credits a {
+    text-decoration: none;
+}
+
+.contacto {
+    display: flex;
+    color: #fff;
+    text-align: center;
+}
+
+.contacto .titulo h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    box-lines: initial;
+}
+
+.contacto .contenido {
+    /* font-size:9px; */
+    font-size: 15px;
+    /*align-items:left;*/
+    text-align: left;
+}
+
+.contacto .contenido .telefono {
+    font-size: 17px;
+    margin-bottom: 7px;
+}
+
+.contacto .contenido .email {
+    /*color: #00c1c1;
+     fd5f24*/
+    margin-bottom: 7px;
+}
+
+.contacto .contenido .direccion {
+    font-style: italic;
+    margin-bottom: 7px;
+}
+
+.icono {
+    border-radius: 50%;
+    padding: 4px;
+    background: var(--color-footer-icono);
+    color: #fff;
+}
+
+.contact h3 {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+    /*margin: 10px 0;*/
+    text-align: center;
+}
+
+.contact .social-links {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    color: #fff;
+    /* color: #687683; */
+    line-height: 1;
+    margin: 0 8px;
+    transition: 0.3s;
+    padding: 14px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+}
+
+.contact .social-links a:hover {
+    color: #fff;
+    border-color: var(--color-footer-social-links);
+    background: var(--color-footer-social-links);
+    text-decoration: none;
+}
+
+
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+
+.margin15 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.row-pb-md {
+    padding-bottom: 0em;
+}
+
+.gototop a i {
+    height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 35px;
+    color: red;
+}
+
+
+/*--------------------------------------------------------------
+# 
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Our Values bien 
+--------------------------------------------------------------*/
+
+.card {
+    border-radius: .45rem;
+    /*height:*/
+    /*min-height:300px;*/
+}
+
+.our-values .card {
+    border: 0;
+    padding: 220px 60px 10px 60px;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 10px 0px;
+}
+
+.our-values .card-body {
+    z-index: 10;
+    /*    z-index: 10;  */
+    background: rgba(255, 255, 255, 0.89);
+    padding: 20px 15px;
+    /* padding: 15px 30px; */
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    transition: ease-in-out 0.4s;
+    border-radius: 10px;
+}
+
+.our-values .card-title {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.our-values .card-title a {
+    color: #150517;
+    text-transform: uppercase;
+}
+
+.our-values .card-text {
+    color: #5e5e5e;
+}
+
+
+/*
+    .our-values .read-more a {
+      color: #777777;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 12px;
+      transition: 0.4s;
+    }
+    
+    .our-values .read-more a:hover {
+      text-decoration: underline;
+    }
+    */
+
+.our-values .card:hover .card-body {
+    background: #f9333b;
+    /* #ed1b23e6;  #ff7f5d;  */
+}
+
+.our-values .card:hover .read-more a,
+.our-values .card:hover .card-title,
+.our-values .card:hover .card-title a,
+.our-values .card:hover .card-text {
+    color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+    # 
+    --------------------------------------------------------------*/
